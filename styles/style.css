@@ -1,0 +1,60 @@
+/* Root */
+*,
+*::after
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primaryColor: #131313;
+    --secondaryColor: #154e90;
+    --tertiaryColor: whitesmoke;
+    --box-shadow: 10px 10px 10px  black;
+
+}
+
+/*  */
+.logo {
+    width: 6em;
+}
+
+body {
+    text-align: center;
+}
+
+.display-2 {
+    color: var(--secondaryColor);
+}
+
+/* .img-profile {
+    width: 400px;
+    height: 400px;
+    margin:40px 1px;
+} */
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+    background-color:var(--secondaryColor);
+    padding: 3px;
+    border-radius: 30px;
+}
+
+input[type=text], select {
+    width:100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+label {
+    text-align: left;
+}
+
+/* #212529 */
